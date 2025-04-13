@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box {
+            width: 100%;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: rgba(227, 253, 214, 0.954);
+        }
+    </style>
+</head>
+<body style="background-color: rgb(242, 246, 245);">
+    <div class="container">
+        <div class="box">
+        
+            <form action="">
+                <fieldset>
+                    <legend style="border: 20px; background-color: rgb(149, 223, 154); border-radius: 5px;">Sample Form - All Input types</legend>
+
+                    <label>Text Input:</label>
+                    <input type="text"><br><br>
+
+                    <label>Password:</label>
+                    <input type="password"><br><br>
+
+                    <label>Email:</label>
+                    <input type="email"><br><br>
+
+                    <label>Number:</label>
+                    <input type="number"><br><br>
+
+                    <label>Date:</label>
+                    <input type="datetime-local"><br><br>
+
+                    <label>Checkbox:</label>
+                    <input type="checkbox"> Accept terms<br><br>
+
+                    <label>Radio Options:</label><br>
+                    <input type="radio" name="option"> Option 1 <br>
+                    <input type="radio" name="option"> Option 2 <br><br>
+
+                    <label>File Upload:</label>
+                    <input type="file"><br><br>
+
+                    <label>Color Picker:</label>
+                    <input type="color"><br><br>
+
+                    <label>Range:</label>
+                    <input type="range"><br><br>
+
+                    <label>Textarea:</label>
+                    <textarea></textarea><br><br>
+
+                    <label>Dropdown:</label>
+                    <select>
+                        <option value="">Option 1</option>
+                        <option value="">Option 2</option>
+                    </select><br><br>
+
+                    <label>Datalist:</label>
+                    <input list="options">
+                    <datalist id="options">
+                        <option value="Option 1">
+                        <option value="Option 2">
+                    </datalist><br><br>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <button type="button">Click Me</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
